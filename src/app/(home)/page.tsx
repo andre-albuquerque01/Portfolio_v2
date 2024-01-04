@@ -6,7 +6,7 @@ export default function Home() {
       <h1 className="text-2xl font-bold">HEY, I AM ANDRÉ ALBUQUERQUE</h1>
       <p>
         A full-stack developer focused on web Applications, building web
-        Applications to facilitate life
+        Applications to facilitate life.
       </p>
       <Link href="/about" className="px-4 py-2 bg-blue-500 rounded-md">
         About me
