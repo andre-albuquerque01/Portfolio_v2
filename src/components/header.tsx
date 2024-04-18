@@ -8,25 +8,25 @@ export const Header = () => {
         <nav>
           <div className="flex items-center gap-7">
             <Link
-              href=""
+              href="/"
               className="transform duration-500 rounded-md hover:bg-zinc-600 p-2"
             >
               <span>HOME</span>
             </Link>
             <Link
-              href=""
+              href="/about"
               className="transform duration-500 rounded-md hover:bg-zinc-600 p-2"
             >
               <span>ABOUT</span>
             </Link>
             <Link
-              href=""
+              href="/projects"
               className="transform duration-500 rounded-md hover:bg-zinc-600 p-2"
             >
               <span>PROJECTS</span>
             </Link>
             <Link
-              href=""
+              href="/conctat"
               className="transform duration-500 rounded-md hover:bg-zinc-600 p-2"
             >
               <span>CONTACT</span>

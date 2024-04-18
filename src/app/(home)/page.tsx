@@ -1,9 +1,7 @@
-import { Header } from '@/components/header'
-
 export default function Home() {
   return (
     <main className="">
-      <Header />
+      Brsa <div>asdasd</div>
     </main>
   )
 }

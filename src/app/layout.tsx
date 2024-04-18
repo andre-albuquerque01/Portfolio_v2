@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import { fontBody } from '../fonts/fonts'
+import { Header } from '@/components/header'
+import { Footer } from '@/components/footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,9 +24,11 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body
-        className={`bg-zinc-800 antialiased ${inter.className} ${fontBody.variable}`}
+        className={`bg-zinc-800 antialiased scroll-smooth ${inter.className} ${fontBody.variable}`}
       >
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )
