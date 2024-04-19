@@ -32,8 +32,7 @@ export default function Contact() {
           Linkedin
         </Link>
         <Link
-          href="http://"
-          target="_blank"
+          href="mailto:andregonsalves2011@gmail.com?subject=Dúvidas sobre o portfolio"
           rel="noopener noreferrer"
           className="w-72 h-20 flex items-center justify-center gap-5 text-white border border-white rounded-xl transform duration-700 hover:bg-zinc-700 hover:scale-110"
         >
