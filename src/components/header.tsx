@@ -26,7 +26,7 @@ export const Header = () => {
               <span>PROJECTS</span>
             </Link>
             <Link
-              href="/conctat"
+              href="/contact"
               className="transform duration-500 rounded-md hover:bg-zinc-600 p-2"
             >
               <span>CONTACT</span>
