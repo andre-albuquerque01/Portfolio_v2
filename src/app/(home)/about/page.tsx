@@ -33,13 +33,14 @@ export default function About() {
       </div>
       <div className="text-white space-x-4 space-y-2 mt-3">
         <h1 className="text-xl">Certification</h1>
-        <p>
+        {/* <p>
           Currently pursuing - Specialization in Information Technology with
           emphasis on mainframe - Senac - 04/2024 to 07/2025
-        </p>
+        </p> */}
         <p>
           Graduated in Systems Analysis and Development - Senac - 2022 to 2023
         </p>
+        <p>Graduated in Human resources - UniProjeção - 2019 to 2020</p>
         <p>Scrum - CertiProf - 2022</p>
       </div>
 
@@ -84,10 +85,13 @@ export default function About() {
               JavaScript
             </span>
             <span className="px-4 py-2  bg-blue-500 text-white rounded-md">
+              Typescript
+            </span>
+            <span className="px-4 py-2  bg-blue-500 text-white rounded-md">
               React
             </span>
             <span className="px-4 py-2  bg-blue-500 text-white rounded-md">
-              Next
+              Next.Js
             </span>
             <span className="px-4 py-2  bg-blue-500 text-white rounded-md">
               Tailwind
