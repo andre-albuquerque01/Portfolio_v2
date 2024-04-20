@@ -20,7 +20,7 @@ export default function Contact() {
         <CardProject
           pathLink={'tutuFood'}
           titleLink={'Operational Management for restaurants'}
-          pathImage={''}
+          pathImage={'/tutuFood/tutufoodCapa.png'}
           title={'Operational Management for restaurants'}
           text={
             'Menu system with order management, table management, item management, and category management.'
