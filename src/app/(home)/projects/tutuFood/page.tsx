@@ -3,17 +3,20 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Events() {
-  const pathName = '/event/imgEvents'
+  const pathName = '/tutuFood/tutuFood'
   return (
     <aside className="max-w-[1200px] mx-auto text-justify mt-10 max-sm:px-2 px-20 space-y-8 text-white mb-5">
       <div className="" id="ifome">
         <div className="">
           <div className="text-2xl">
-            <h1>Events</h1>
+            <h1>Tutu Food</h1>
           </div>
           <div className="text-sobre">
-            Site de eventos, para uma determinada entidade, para fazer a
-            divulgação de seus eventos.
+            O Cardápio Online é uma plataforma que permite aos clientes
+            acompanhar facilmente os pedidos realizados através do garçom,
+            verificar os itens selecionados, o valor total da conta e facilita o
+            cadastro através de um identificador exclusivo para localizar os
+            pedidos.
           </div>
         </div>
       </div>
@@ -192,77 +195,109 @@ export default function Events() {
                   <div className="text-xl">
                     <h2 className="font-bold">Telas</h2>
                   </div>
-                  <div>
-                    <div className="">
-                      <p className="mt-3 mb-1">Index</p>
-                      <Image
-                        src={`${pathName}/index.png`}
-                        width={1200}
-                        height={550}
-                        alt="inicio"
-                      />
-                    </div>
-                    <div className="">
-                      <p className="mt-3 mb-1">Evento</p>
-                      <Image
-                        src={`${pathName}/event.png`}
-                        width={1200}
-                        height={550}
-                        alt="evento"
-                      />
-                    </div>
-                    <div className="">
+                  <div className="object-cover">
+                    <div className="space-y-4">
                       <p className="mt-3 mb-1">Dashboard</p>
                       <Image
                         src={`${pathName}/dashboard.png`}
                         width={1200}
                         height={550}
-                        alt="dashboard"
+                        alt="inicio"
                       />
-                    </div>
-                    <div className="">
-                      <p className="mt-3 mb-1">Painel de participante</p>
                       <Image
-                        src={`${pathName}/painelParticipando2.png`}
-                        width={1200}
-                        height={550}
-                        alt="painel"
+                        src={`${pathName}/dashboardMobile.png`}
+                        width={250}
+                        height={150}
+                        alt="Inicio"
+                        className="max-h-[550px] object-contain self-start"
                       />
                     </div>
-                    <div className="">
+                    <div className="space-y-4">
                       <p className="mt-3 mb-1">Pesquisa</p>
                       <Image
                         src={`${pathName}/search.png`}
                         width={1200}
                         height={550}
-                        alt="Resultado da Pesquisa"
+                        alt="pesquisa"
+                      />
+                      <Image
+                        src={`${pathName}/searchMobile.png`}
+                        width={250}
+                        height={150}
+                        alt="pesquisa"
+                        className="max-h-[550px] object-contain self-start"
+                      />
+                      <Image
+                        src={`${pathName}/searchItens.png`}
+                        width={1200}
+                        height={550}
+                        alt="pesquisa"
+                      />
+                      <Image
+                        src={`${pathName}/searchCategoria.png`}
+                        width={1200}
+                        height={550}
+                        alt="pesquisa"
                       />
                     </div>
                     <div className="">
-                      <p className="mt-3 mb-1">Opções</p>
+                      <p className="mt-3 mb-1">Comanda</p>
                       <Image
-                        src={`${pathName}/painel.png`}
+                        src={`${pathName}/comanda.png`}
+                        width={1200}
+                        height={550}
+                        alt="comanda"
+                      />
+                    </div>
+                    <div className="">
+                      <p className="mt-3 mb-1">Menu do usuário</p>
+                      <Image
+                        src={`${pathName}/menu.png`}
+                        width={1200}
+                        height={550}
+                        alt="menu"
+                      />
+                    </div>
+                    <div className="">
+                      <p className="mt-3 mb-1">Pedidos</p>
+                      <Image
+                        src={`${pathName}/pedido.png`}
+                        width={1200}
+                        height={550}
+                        alt="Pedidos"
+                      />
+                    </div>
+                    <div className="">
+                      <p className="mt-3 mb-1">Categoria</p>
+                      <Image
+                        src={`${pathName}/listaCategoria.png`}
                         width={1200}
                         height={550}
                         alt="Opções"
                       />
                     </div>
                     <div className="">
-                      <p className="mt-3 mb-1">Opções do administrador</p>
+                      <p className="mt-3 mb-1">Lista de itens</p>
                       <Image
-                        src={`${pathName}/painelAdm.png`}
+                        src={`${pathName}/listItens.png`}
                         width={1200}
                         height={550}
-                        alt="Opções"
+                        alt="Lista de itens"
                       />
                     </div>
-                    <div className="">
-                      <p className="mt-3 mb-1">Lista de participantes</p>
+                    <div className="space-y-4">
+                      <p className="mt-3 mb-1">Usuário</p>
                       <Image
-                        src={`${pathName}/listDeParticipante.png`}
+                        src={`${pathName}/login.png`}
                         width={1200}
                         height={550}
-                        alt="Lista de participante"
+                        alt="Entrar na conta"
+                      />
+                      <Image
+                        src={`${pathName}/cadastroUser.png`}
+                        width={1200}
+                        height={550}
+                        alt="Entrar na conta"
                       />
                     </div>
                   </div>
