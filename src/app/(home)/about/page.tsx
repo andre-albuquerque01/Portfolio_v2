@@ -6,20 +6,20 @@ export const metadata: Metadata = {
 }
 export default function About() {
   return (
-    <div className="max-w-[1200px] min-h-screen/5 mx-auto font-roboto">
+    <div className="max-w-[1200px] w-[90%] text-justify min-h-screen/5 mx-auto font-roboto">
       <div>
         <h1 className="uppercase text-white text-2xl text-center mt-10">
           About me
         </h1>
         <div className="w-20 h-1 rounded-sm bg-blue-600 mt-2 mx-auto"></div>
       </div>
-      <div>
+      <div className="text-justify">
         <p className="text-white text-md text-center mt-7">
           Here you will find more information about me, what I do, and my
           current skills mostly in terms of programming and technology.
         </p>
       </div>
-      <div className="text-white space-x-4 space-y-2 mt-3">
+      <div className="text-white text-justify space-x-4 space-y-2 mt-3">
         <h1 className="text-xl">Get to know me!</h1>
         <p>
           A full-stack developer focused on web applications, building web
@@ -31,7 +31,7 @@ export default function About() {
           great joy in being a developer.
         </p>
       </div>
-      <div className="text-white space-x-4 space-y-2 mt-3">
+      <div className="text-white text-justify space-x-4 space-y-2 mt-3">
         <h1 className="text-xl">Certification</h1>
         {/* <p>
           Currently pursuing - Specialization in Information Technology with
@@ -44,7 +44,7 @@ export default function About() {
         <p>Scrum - CertiProf - 2022</p>
       </div>
 
-      <div className="text-white space-x-4 space-y-2 mt-3">
+      <div className="text-white text-justify space-x-4 space-y-2 mt-3">
         <h1 className="text-xl">Experience</h1>
         <div className="space-x-8">
           <p>
@@ -138,6 +138,9 @@ export default function About() {
         <div>
           <h3 className="">Others</h3>
           <div className="flex flex-wrap gap-2">
+            <span className="px-4 py-2  bg-blue-500 text-white rounded-md">
+              Docker
+            </span>
             <span className="px-4 py-2  bg-blue-500 text-white rounded-md">
               Figma
             </span>
