@@ -1,10 +1,7 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import './globals.css'
-import { fontBody } from '../fonts/fonts'
+import { fontBody, fontJersey } from '../fonts/fonts'
 import { Header } from '@/components/header'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'André',
@@ -23,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body
-        className={`bg-zinc-800 antialiased scroll-smooth ${inter.className} ${fontBody.variable}`}
+        className={`bg-zinc-800 antialiased scroll-smooth ${fontBody.className} ${fontJersey.variable}`}
       >
         <Header />
         {children}
