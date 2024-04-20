@@ -15,6 +15,7 @@ const config: Config = {
       },
       fontFamily: {
         roboto: '--var(--font-roboto)',
+        jersey: '--var(--font-jersey)',
       },
     },
   },
