@@ -5,7 +5,7 @@ import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io'
 
 export default function Contact() {
   return (
-    <div className="max-w-[1200px] min-h-screen mx-auto">
+    <div className="max-w-[1200px]  mx-auto">
       <div>
         <h1 className="uppercase text-white text-2xl text-center mt-10">
           Let's connect.
