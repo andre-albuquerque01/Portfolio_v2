@@ -14,7 +14,7 @@ export default function Contact() {
       </div>
       <div className="flex flex-col items-center justify-center gap-5 mt-10">
         <Link
-          href="http://"
+          href="https://github.com/andre-albuquerque01"
           target="_blank"
           rel="noopener noreferrer"
           className="w-72 h-20 flex items-center justify-center gap-5 text-white border border-white rounded-xl transform duration-700 hover:bg-zinc-700 hover:scale-110"
@@ -23,7 +23,7 @@ export default function Contact() {
           GitHub
         </Link>
         <Link
-          href="http://"
+          href="https://www.linkedin.com/in/andr%C3%A9-albuquerque-4990091b1/"
           target="_blank"
           rel="noopener noreferrer"
           className="w-72 h-20 flex items-center justify-center gap-5 text-white border border-white rounded-xl transform duration-700 hover:bg-zinc-700 hover:scale-110"
