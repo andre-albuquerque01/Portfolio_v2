@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 import { fontBody, fontJersey } from '../fonts/fonts'
 import { Header } from '@/components/header'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 export const metadata: Metadata = {
   title: 'André',
@@ -22,6 +23,7 @@ export default function RootLayout({
       <body
         className={`bg-zinc-800 antialiased scroll-smooth ${fontBody.className} ${fontJersey.variable}`}
       >
+        <SpeedInsights />
         <Header />
         {children}
       </body>
