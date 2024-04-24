@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Events() {
-  const pathName = '/tutuFood/tutuFood'
+  const pathName = '/tutuFood/tutufood'
   return (
     <aside className="max-w-[1200px] mx-auto text-justify mt-10 max-sm:px-2 px-20 space-y-8 text-white mb-5">
       <div className="" id="ifome">
