@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main className="flex justify-center items-center text-center flex-col gap-5 text-white p-2 h-screen mt-[-80px] relative">
+    <main className="flex justify-center items-center text-center flex-col gap-5 text-white p-2 h-screen mt-[-80px]">
       <div className="flex flex-col items-center justify-center mb-40">
         <Image
           src={'/home/home.png'}
