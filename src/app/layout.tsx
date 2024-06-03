@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import { fontBody, fontJersey } from '../fonts/fonts'
+import { fontBody, fontJersey } from './fonts'
 import { Header } from '@/components/header'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 
