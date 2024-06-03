@@ -1,5 +1,5 @@
 /* eslint-disable camelcase */
-import { Jersey_10, Roboto } from 'next/font/google'
+import { Caveat, Jersey_10, Roboto } from 'next/font/google'
 
 export const fontBody = Roboto({
   weight: ['100', '300', '400', '500', '700'],
@@ -15,4 +15,12 @@ export const fontJersey = Jersey_10({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-jersey',
+})
+
+export const fontLogo = Caveat({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  display: 'swap',
+  variable: '--font-roboto',
+  style: ['normal'],
 })
