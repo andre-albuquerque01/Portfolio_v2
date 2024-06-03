@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import { fontBody, fontJersey } from './fonts'
+import { fontBody } from './fonts'
 import { Header } from '@/components/header'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 
@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body
-        className={`bg-zinc-800 antialiased scroll-smooth ${fontBody.className} ${fontJersey.variable}`}
+        className={`bg-zinc-800 antialiased scroll-smooth ${fontBody.className}`}
       >
         <SpeedInsights />
         <Header />
