@@ -1,5 +1,5 @@
 'use client'
-import { fontJersey } from '@/fonts/fonts'
+import { fontLogo } from '@/app/fonts'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 
@@ -24,8 +24,8 @@ export const Header = () => {
     <header className="bg-zinc-900">
       <div className="max-w-[1200px] mx-auto px-5 flex justify-between items-center h-20 text-white ">
         {/* <h1 className="font-jersey uppercase">{'<André Albuquerque/>'}</h1> */}
-        <h1 className={`${fontJersey.className} uppercase text-2xl`}>
-          {'< André Albuquerque />'}
+        <h1 className={`${fontLogo.className} capitalize text-2xl`}>
+          {'André Albuquerque'}
         </h1>
         <nav>
           <button
