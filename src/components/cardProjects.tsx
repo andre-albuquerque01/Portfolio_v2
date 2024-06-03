@@ -32,7 +32,7 @@ export const CardProject = ({
       />
       <div className="flex flex-col items-center gap-6 w-[50%] max-md:w-full max-md:px-2 max-md:mb-2 max-md:text-center">
         <h2 className="text-lg font-semibold">{title}</h2>
-        <p>{text}</p>
+        <p className="text-center">{text}</p>
       </div>
     </Link>
   )
