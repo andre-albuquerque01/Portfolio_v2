@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-export default function Events() {
+export default function TutuFood() {
   const pathName = '/tutuFood/tutufood'
   return (
     <aside className="max-w-[1200px] mx-auto text-justify mt-10 max-sm:px-2 px-20 space-y-8 text-white mb-5">
@@ -186,8 +186,8 @@ export default function Events() {
               <div className="text-lg">
                 <h2 className="font-semibold">Apresentação das telas</h2>
                 <p>
-                  As telas de Perfil, Posto, Escala e Alocação oferecem
-                  funcionalidades completas de CRUD.
+                  As telas de Dashboard, Pedidos, Itens, Pesquisa e Cadastro do
+                  usuário funcionalidades completas de CRUD.
                 </p>
               </div>
               <div className="mt-2">
