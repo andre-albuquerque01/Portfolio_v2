@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Management() {
   const pathName = '/managemenSystem/imgGerenciadorEscala'
   return (
-    <aside className="max-w-[1200px] mx-auto text-justify mb-5 text-white mt-10 max-sm:px-2 px-20 space-y-8">
+    <aside className="max-w-[1200px] mx-auto text-justify mb-5 text-white mt-10 max-sm:px-4 px-20 space-y-8">
       <div className="" id="ifome">
         <div className="">
           <div className="text-2xl">

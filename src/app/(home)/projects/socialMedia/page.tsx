@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function SocialMidia() {
   const pathName = '/socialMedia'
   return (
-    <aside className="max-w-[1200px] mx-auto text-justify mt-10 max-sm:px-2 px-20 space-y-8 text-white mb-5">
+    <aside className="max-w-[1200px] mx-auto text-justify mt-10 max-sm:px-4 px-20 space-y-8 text-white mb-5">
       <div className="" id="ifome">
         <div className="">
           <div className="text-2xl">

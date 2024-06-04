@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function ApiUser() {
   const pathName = '/api-spring/imgApi_V1'
   return (
-    <aside className="max-w-[1200px] mx-auto text-justify mt-10 mb-5 text-white max-sm:px-2 px-20 space-y-8">
+    <aside className="max-w-[1200px] mx-auto text-justify mt-10 mb-5 text-white max-sm:px-4 px-20 space-y-8">
       <div className="" id="apiUser">
         <div className="sobre">
           <div className="text-2xl">

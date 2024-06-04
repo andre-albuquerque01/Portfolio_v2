@@ -6,7 +6,7 @@ import Link from 'next/link'
 export default function TakeThePhone() {
   const pathName = '/e-commerceRestaurants/imgTakeThePhone'
   return (
-    <aside className="max-w-[1200px] mx-auto text-justify mt-10 max-sm:px-2 px-20 space-y-8 text-white mb-5">
+    <aside className="max-w-[1200px] mx-auto text-justify mt-10 max-sm:px-4 px-20 space-y-8 text-white mb-5">
       <div className="">
         <div className="">
           <div className="text-2xl">
