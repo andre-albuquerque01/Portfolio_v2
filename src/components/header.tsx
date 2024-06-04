@@ -24,9 +24,12 @@ export const Header = () => {
     <header className="bg-zinc-900">
       <div className="max-w-[1200px] mx-auto px-5 flex justify-between items-center h-20 text-white ">
         {/* <h1 className="font-jersey uppercase">{'<André Albuquerque/>'}</h1> */}
-        <h1 className={`${fontLogo.className} capitalize text-2xl`}>
-          {'André Albuquerque'}
-        </h1>
+        <Link href="/" className="">
+          <h1 className={`${fontLogo.className} capitalize text-2xl`}>
+            {'André Albuquerque'}
+          </h1>
+        </Link>
+
         <nav>
           <button
             className="md:hidden h-[25px] m-auto z-30 w-8 flex items-center flex-col gap-1 p-1 relative"
