@@ -4,13 +4,13 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <main className="flex justify-center items-center text-center flex-col gap-5 text-white p-2 h-screen mt-[-80px]">
-      <div className="flex flex-col items-center justify-center mb-40">
+      <div className="flex flex-col items-center justify-center">
         <Image
           src={'/home/home.png'}
           width={500}
           height={500}
           alt="cover"
-          className=""
+          className="max-h-[500px] mt-20"
         />
         <div className="flex justify-center items-center text-center flex-col gap-5 z-10">
           <h1 className="text-2xl font-bold">HEY, I AM ANDRÉ ALBUQUERQUE</h1>
