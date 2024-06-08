@@ -1,11 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
+import Image from 'next/image'
 import Link from 'next/link'
 import { CgMail } from 'react-icons/cg'
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io'
 
 export default function Contact() {
   return (
-    <div className="max-w-[1200px]  mx-auto">
+    <div className="max-w-[1200px] mx-auto">
       <div>
         <h1 className="uppercase text-white text-2xl text-center mt-10">
           Let's connect.
@@ -39,6 +40,15 @@ export default function Contact() {
           <CgMail className=" w-10 h-10" />
           E-mail
         </Link>
+      </div>
+      <div className="max-md:flex justify-center mt-20">
+        <Image
+          src={'/home/programation.png'}
+          width={300}
+          height={300}
+          alt="cover"
+          className="max-h-[500px] float-right"
+        />
       </div>
     </div>
   )
