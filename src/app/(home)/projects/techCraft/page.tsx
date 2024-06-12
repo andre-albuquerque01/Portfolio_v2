@@ -50,8 +50,8 @@ export default function TechCraft() {
             <div className="flex flex-wrap space-y-4">
               <Image
                 src={`${pathName}/service.gif`}
-                width={1500}
-                height={1500}
+                width={1000}
+                height={1000}
                 alt="tela do projeto"
               />
             </div>
