@@ -3,6 +3,7 @@ import './globals.css'
 import { fontBody } from './fonts'
 import { Header } from '@/components/header'
 import { SpeedInsights } from '@vercel/speed-insights/next'
+import { Analytics } from '@vercel/analytics/react'
 
 export const metadata: Metadata = {
   title: 'André',
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body
         className={`bg-zinc-800 antialiased scroll-smooth ${fontBody.className}`}
       >
+        <Analytics />
         <SpeedInsights />
         <Header />
         {children}
