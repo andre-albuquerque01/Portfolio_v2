@@ -10,7 +10,7 @@ export default function Home() {
           width={500}
           height={500}
           alt="cover"
-          className="max-h-[500px] mt-20"
+          className="max-h-[500px]"
         />
         <div className="flex justify-center items-center text-center flex-col gap-5 z-10">
           <h1 className="text-2xl font-bold">HEY, I AM ANDRÉ ALBUQUERQUE</h1>
