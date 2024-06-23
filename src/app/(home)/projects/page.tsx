@@ -18,6 +18,20 @@ export default function Contact() {
       </div>
       <div className="flex flex-col items-center justify-center gap-5 mt-10">
         <CardProject
+          pathLink={'class'}
+          titleLink={'Classroom Management'}
+          pathImage={'/class/home.png'}
+          title={'Classroom Management'}
+          text={'Student Management System Developed for the challenge'}
+        />
+        <CardProject
+          pathLink={'workOut'}
+          titleLink={'Work Out'}
+          pathImage={'/workOut/home.png'}
+          title={'Work out'}
+          text={'An app for training for personal use.'}
+        />
+        <CardProject
           pathLink={'techCraft'}
           titleLink={'Landing Page'}
           pathImage={'/techCraft/home.png'}
