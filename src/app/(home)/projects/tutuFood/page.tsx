@@ -187,7 +187,7 @@ export default function TutuFood() {
                 <h2 className="font-semibold">Apresentação das telas</h2>
                 <p>
                   As telas de Dashboard, Pedidos, Itens, Pesquisa e Cadastro do
-                  usuário funcionalidades completas de CRUD.
+                  usuário, possuem funcionalidades completas de CRUD.
                 </p>
               </div>
               <div className="mt-2">
