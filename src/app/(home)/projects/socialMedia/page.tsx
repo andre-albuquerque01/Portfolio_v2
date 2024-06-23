@@ -132,7 +132,6 @@ export default function SocialMidia() {
             <div className="text-xl">
               <h2 className="font-bold">Arquitetura do projeto</h2>
             </div>
-
             <div className="">
               <ul className="list-disc ml-10">
                 <li>Linguagem: PHP e Typescript;</li>
@@ -140,6 +139,17 @@ export default function SocialMidia() {
                 <li>Banco de dados MySql;</li>
                 <li>Arquitetura: MVC;</li>
               </ul>
+            </div>
+          </div>
+          <div className="space-y-2">
+            <div className="text-xl">
+              <h2 className="font-bold">Observação</h2>
+            </div>
+            <div className="">
+              <p>
+                O sistema utiliza filas (queues) no Laravel para enviar e-mails
+                de forma assíncrona, funcionando em segundo plano.
+              </p>
             </div>
           </div>
           <div className="space-y-2">
