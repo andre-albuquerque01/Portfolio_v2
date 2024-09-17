@@ -197,18 +197,27 @@ export default function TutuFood() {
                   </div>
                   <div className="object-cover">
                     <div className="space-y-4">
+                      <p className="mt-3 mb-1">Início</p>
+                      <Image
+                        src={`${pathName}/index.png`}
+                        width={1200}
+                        height={550}
+                        alt="inicio"
+                      />
+                    </div>
+                    <div className="space-y-4">
                       <p className="mt-3 mb-1">Dashboard</p>
                       <Image
                         src={`${pathName}/dashboard.png`}
                         width={1200}
                         height={550}
-                        alt="inicio"
+                        alt="Dashboard"
                       />
                       <Image
                         src={`${pathName}/dashboardMobile.png`}
                         width={250}
                         height={150}
-                        alt="Inicio"
+                        alt="Dashboard"
                         className="max-h-[550px] object-contain self-start"
                       />
                     </div>
@@ -266,6 +275,13 @@ export default function TutuFood() {
                         height={550}
                         alt="Pedidos"
                       />
+                      <p className="mt-3 mb-1">Apenas para os funcionários</p>
+                      <Image
+                        src={`${pathName}/menuListAll.png`}
+                        width={1200}
+                        height={550}
+                        alt="Pedidos"
+                      />
                     </div>
                     <div className="">
                       <p className="mt-3 mb-1">Categoria</p>
@@ -298,6 +314,21 @@ export default function TutuFood() {
                         width={1200}
                         height={550}
                         alt="Entrar na conta"
+                      />
+                    </div>
+                    <div className="space-y-4">
+                      <p className="mt-3 mb-1">Mesas</p>
+                      <Image
+                        src={`${pathName}/mesa.png`}
+                        width={1200}
+                        height={550}
+                        alt="Mesa"
+                      />
+                      <Image
+                        src={`${pathName}/listMesa.png`}
+                        width={1200}
+                        height={550}
+                        alt="Lista de mesas"
                       />
                     </div>
                   </div>
