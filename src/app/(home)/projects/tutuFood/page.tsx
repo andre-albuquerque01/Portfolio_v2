@@ -26,120 +26,67 @@ export default function TutuFood() {
             <div className="text-xl">
               <h2 className="font-bold">Requisitos Funcionais</h2>
             </div>
-            <div>
-              <div className="font-semibold">RF01. Login de Cliente:</div>
-              <div className="">
-                <div>
-                  <p>
-                    Informações: permitir que os usuários do aplicativo façam
-                    login com seus dados pessoais, e-mail e senha.
-                  </p>
-                </div>
-                <div>
-                  <p>Regras:</p>
-                  <ol className="list-decimal ml-10">
-                    <li>
-                      Cadastro novo Cliente: para criar um novo cadastro de
-                      cliente, o cliente deve fornecer um endereço de email e
-                      uma senha. Após o cadastro, um email de confirmação será
-                      enviado para o endereço de email fornecido, a fim de
-                      validar o novo cadastro do cliente.
-                    </li>
-                    <li>
-                      Esqueci a senha: o cliente esqueceu sua senha, logo é
-                      enviado um e-mail um token.
-                    </li>
-                    <li>
-                      Autenticação: O sistema deve verificar se as informações
-                      de login do cliente, verificar se já é cadastrado, caso o
-                      cliente já esteja cadastrado, mostra mensagem cliente
-                      cadastrado, se não houver cadastro daquele cliente segue a
-                      rotina normalmente.
-                    </li>
-                  </ol>
-                </div>
-              </div>
+            <ul className="list-disc ml-10">
+              <li>Deve ser possível se cadastrar;</li>
+              <li>Deve ser possível se autenticar;</li>
+              <li>Deve ser possível obter o perfil de um usuário logado;</li>
+              <li>
+                Deve ser possível visualizar os produtos do estabelecimento;
+              </li>
+              <li>
+                Deve ser possível o usuário obter seu histórico de pedidos;
+              </li>
+              <li>Deve ser possível o usuário buscar itens pelo nome;</li>
+              <li>Deve ser possível o usuário buscar itens pela categoria;</li>
+              <li>
+                Deve ser possível o usuário realizar consulta ao seu histórico;
+              </li>
+              <li>
+                Deve ser possível os administradores realizarem consultas ao
+                histórico dos pedidos;
+              </li>
+              <li>
+                Deve ser possível os administradores verem pedidos em aberto;
+              </li>
+              <li>Deve ser possível os administradores gerenciarem pedidos;</li>
+              <li>Deve ser possível os administradores gerenciarem mesas;</li>
+              <li>Deve ser possível os administradores gerenciarem itens;</li>
+              <li>
+                Deve ser possível os administradores gerenciarem categorias;
+              </li>
+              <li>
+                Deve ser possível os administradores gerenciarem funcionários;
+              </li>
+              <li>
+                Deve ser possível que a empresa utilize seus métodos de
+                pagamento;
+              </li>
+            </ul>
+          </div>
+          <div className="space-y-5">
+            <div className="text-xl">
+              <h2 className="font-bold">Regras de negócio</h2>
             </div>
-            <div>
-              <div className="font-semibold">RF02. Gerenciamento de mesas</div>
-              <div className="">
-                <div>
-                  <p>
-                    Informações: permitir que o usuário (Administrador) da
-                    aplicação gerencie mesas do estabelecimento, verificando
-                    status e cadastrando/excluindo mesas..
-                  </p>
-                </div>
-                <div>
-                  <p>Regras:</p>
-                  <ol className="list-decimal ml-10">
-                    <li>
-                      A aplicação deve permitir que o usuário (Administrador)
-                      cadastre novas mesas no estabelecimentos, informando o
-                      número da mesa;
-                    </li>
-                    <li>
-                      A aplicação deve permitir que o usuário (Administrador)
-                      exclua mesas que não estejam mais em uso nos restaurantes
-                      e bares cadastrados;
-                    </li>
-                    <li>
-                      A aplicação deve permitir que o usuário (Administrador)
-                      visualize todas as mesas cadastradas do estabelecimento,
-                      com suas respectivas informações como número da mesa e
-                      status;
-                    </li>
-                    <li>
-                      A aplicação deve permitir que o usuário (Administrador)
-                      altere o status de uma mesa de acordo com sua
-                      disponibilidade, podendo ser "disponível" ou "ocupada";
-                    </li>
-                    <li>
-                      A aplicação deve permitir que o usuário (Administrador)
-                      filtre as mesas por status e por estabelecimento
-                      cadastrado, facilitando a visualização e gerenciamento das
-                      mesas.
-                    </li>
-                  </ol>
-                </div>
-              </div>
+            <ul className="list-disc ml-10">
+              <li>O usuário não deve se cadastrar com um e-mail duplicado;</li>
+              <li>O usuário não deve se cadastrar com um CPF duplicado;</li>
+              <li>O usuário não pode fazer pedidos;</li>
+              <li>Os itens só podem ser cadastrados por administradores;</li>
+              <li>Os pedidos só podem ser cadastrados por administradores;</li>
+            </ul>
+          </div>
+          <div className="space-y-5">
+            <div className="text-xl">
+              <h2 className="font-bold">Requisitos não Funcionais</h2>
             </div>
-            <div>
-              <div className="font-semibold">RF03. Menu digital</div>
-              <div className="">
-                <div>
-                  <p>
-                    Informações: permitir que os usuários da aplicação
-                    visualizem o menu do estabelecimento, com descrições dos
-                    pratos, preços, fotos, disponibilidade e categoria.
-                  </p>
-                </div>
-                <div>
-                  <p>Regras:</p>
-                  <ol className="list-decimal ml-10">
-                    <li>
-                      Permitir que os clientes visualizem o menu completo de
-                      forma digital;
-                    </li>
-                    <li>Fornecer imagens e descrições claras dos produtos;</li>
-                    <li>
-                      Permitir que os clientes visualizem os preços dos itens e
-                      seja atualizado o subtotal do pedido em tempo real, após
-                      inseri-lo no comanda;
-                    </li>
-                    <li>
-                      Será de fácil utilização, tanto para a clientela quanto
-                      para os responsáveis pela gestão do estabelecimento;
-                    </li>
-                    <li>
-                      Os produtos designados como indisponíveis na base de dados
-                      deverão ficar indisponíveis para fazer a sua seleção no
-                      cardápio.
-                    </li>
-                  </ol>
-                </div>
-              </div>
-            </div>
+            <ul className="list-disc ml-10">
+              <li>A senha do usuário precisa estar criptografada;</li>
+              <li>
+                Os dados da aplicação precisam estar persistidos em um banco de
+                dados;
+              </li>
+              <li>O usuário deve ser identificado por um token;</li>
+            </ul>
           </div>
           <div className="space-y-2">
             <div className="text-xl">
@@ -149,8 +96,8 @@ export default function TutuFood() {
             <div className="">
               <ul className="list-disc ml-10">
                 <li>Linguagem: PHP e Typescript;</li>
-                <li>Frameworks: Laravel e Next.Js;</li>
-                <li>Banco de dados MySql;</li>
+                <li>Frameworks: Laravel 10 e Next.Js;</li>
+                <li>Banco de dados: MySql;</li>
                 <li>Arquitetura: MVC;</li>
               </ul>
             </div>
@@ -184,7 +131,7 @@ export default function TutuFood() {
                 </Link>
               </div>
               <div className="text-lg">
-                <h2 className="font-semibold">Apresentação das telas</h2>
+                <h2 className="font-semibold">Exibição das telas</h2>
                 <p>
                   As telas de Dashboard, Pedidos, Itens, Pesquisa e Cadastro do
                   usuário, possuem funcionalidades completas de CRUD.
