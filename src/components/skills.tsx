@@ -45,10 +45,10 @@ export const Skills = () => {
               Spring Boot
             </span>
             <span className="px-4 py-2 bg-blue-900 opacity-80 text-white rounded-md">
-              Python
+              Node
             </span>
             <span className="px-4 py-2 bg-blue-900 opacity-80 text-white rounded-md">
-              Node
+              Nest.Js
             </span>
           </div>
         </div>
